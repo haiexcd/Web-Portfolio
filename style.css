@@ -1,0 +1,265 @@
+
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans|Quattrocento);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
+
+/* ----- =structure -----*/
+
+body {
+    background-color: #fff;
+    margin: 0;
+}
+header {
+    height: 40px;
+    background-color: #fff;
+    margin-bottom: 0;
+    margin-top: 70px;
+}
+#content {
+    padding-top: 60px;
+    min-height: 400px;
+}
+
+
+.wrapper {
+    width: 980px;
+    margin: auto;
+}
+.wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* ----- =logo ----- */
+
+h1 {
+    display: inline;
+}
+
+
+header h1 {
+   
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 25px;
+    margin: 0 0 0 15px;
+    padding-bottom: 0;
+   
+}
+header h1 a {
+
+    text-decoration: none;
+    color: #8f99a4;
+}
+header h1 a:hover {
+    color: #777;
+}
+ header h3 {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 18px;
+    float: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0 0 0 2px;
+    
+}
+header h3 a {
+    text-decoration: none;
+    color: #8f99a4;
+}
+
+header h3 a:hover {
+    color: #777;
+} 
+
+
+
+
+
+/* ----- =header & nav -----*/
+
+nav {
+    float: right;
+    margin: 12px 10px 0 0;
+    padding-bottom: 0;
+  
+  }
+  
+  nav a {
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 18px;
+    color: #8f99a4;
+    font-family: Quattrocento, sans-serif;
+  
+  }
+  
+  nav a:hover {
+    color: #777;
+  }
+  
+  nav a:last-of-type {
+    margin-right: 10px;
+  }
+
+
+  /* ----- =full background images ----*/
+
+.bg-full-image {
+	position: relative;
+	min-width: 980px;
+}
+.bg-full-image img {
+	display: block;
+	width: 100%;
+	border: 1px #b4b4b4 solid;
+}   
+
+.full-width {
+    width: 100%;
+}
+
+/* ------- =type -----*/
+
+h2 {
+	font-family: Quattrocento, sans-serif;
+	font-size: 36px;
+	color: #8f99a4;
+}
+
+h3 {
+    font-family: Quattrocento, sans-serif;
+	font-size: 24px;
+	color: #8f99a4;
+
+}
+
+p {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 18px;
+	line-height: 28px;
+	color: #777;
+}
+.center {
+    text-align: center;
+}
+em {
+	font-size: 14px;
+	line-height: 18px;
+	padding-top: 10px;
+	display: block;
+	color: #999;
+}
+
+/* ------ =contact ----- */
+
+
+p a {
+    text-decoration: none;
+    color: #8f99a4;
+    font-family: Quattrocento, sans-serif;
+    
+
+}
+
+p a:hover {
+    color: #777;
+  }
+
+
+
+
+/* ----- =columns ----- */
+
+
+
+.full_column {
+    width: 940px;
+}
+
+
+.full_column {
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.one_half {
+    width: 460px;
+    margin-left: 240px;
+    display: block;
+    
+}
+
+.one_half2 {
+    width: 460px;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* clearfix */
+.row:before,
+.row:after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+
+/* ------ =style ----- */
+
+hr {
+	height: 2px;
+	background-color: #d4d4d4;
+	border: none;
+	margin: 60px 0 100px 0;
+}
+
+
+
+
+
+
+/* ------ =footer ------ */
+
+footer {
+    width: 100%;
+    background-color: #8b959f;
+}
+  
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover {
+    color: #777;
+}
+
+footer > .social {
+    font-size: 26px;
+    list-style: none;
+    text-align: center;
+    margin-right: 40px;
+    margin-bottom: 5px;
+}
+  
+footer > .social > .social_icon {
+    display: inline;
+    margin-right: 5px;
+}
+
+footer #copyright {
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+
+    
+}
