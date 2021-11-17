@@ -53,10 +53,10 @@ header h1 {
 header h1 a {
 
     text-decoration: none;
-    color: #8f99a4;
+    color: #6E7687;
 }
 header h1 a:hover {
-    color: #777;
+    color: #757575;
 }
  header h3 {
     font-family: 'Quattrocento Sans', sans-serif;
@@ -69,11 +69,11 @@ header h1 a:hover {
 }
 header h3 a {
     text-decoration: none;
-    color: #8f99a4;
+    color: #6E7687;
 }
 
 header h3 a:hover {
-    color: #777;
+    color: #757575;
 } 
 
 
@@ -93,13 +93,13 @@ nav {
     text-decoration: none;
     margin-right: 40px;
     font-size: 18px;
-    color: #8f99a4;
+    color: #6E7687;
     font-family: Quattrocento, sans-serif;
   
   }
   
   nav a:hover {
-    color: #777;
+    color: #757575;
   }
   
   nav a:last-of-type {
@@ -128,13 +128,13 @@ nav {
 h2 {
 	font-family: Quattrocento, sans-serif;
 	font-size: 36px;
-	color: #8f99a4;
+	color: #6E7687;
 }
 
 h3 {
     font-family: Quattrocento, sans-serif;
 	font-size: 24px;
-	color: #8f99a4;
+	color: #6E7687;
 
 }
 
@@ -142,7 +142,7 @@ p {
 	font-family: 'Quattrocento Sans', sans-serif;
 	font-size: 18px;
 	line-height: 28px;
-	color: #777;
+	color: #757575;
 }
 .center {
     text-align: center;
@@ -160,14 +160,14 @@ em {
 
 p a {
     text-decoration: none;
-    color: #8f99a4;
+    color: #6E7687;
     font-family: Quattrocento, sans-serif;
     
 
 }
 
 p a:hover {
-    color: #777;
+    color: #757575;
   }
 
 
@@ -237,7 +237,7 @@ footer a {
     color: white;
 }
 footer a:hover {
-    color: #777;
+    color: #757575;
 }
 
 footer > .social {
