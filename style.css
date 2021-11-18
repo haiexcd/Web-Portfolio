@@ -158,18 +158,20 @@ em {
 /* ------ =contact ----- */
 
 
-p a {
-    text-decoration: none;
-    color: #6E7687;
-    font-family: Quattrocento, sans-serif;
-    
+ ol {
+     list-style: none;
+     margin-right: 40px;
+ }
 
-}
+ ol li a {
+     text-decoration: none;
+     color: #6E7687;
+     font-family: Quattrocento, sans-serif;
+ }
 
-p a:hover {
-    color: #757575;
-  }
-
+ ol li a:hover {
+     color: #757575;
+ }
 
 
 
